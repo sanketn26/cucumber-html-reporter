@@ -10,6 +10,7 @@ interface Options {
   columnLayout?: number,
   storeScreenshots?: boolean,
   noInlineScreenshots?: boolean,
+  skipStatsForScenariosStartingWith?: [],
   name?: string,
   metadata?: {
     [key: string]: string

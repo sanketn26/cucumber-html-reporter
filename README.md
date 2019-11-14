@@ -226,6 +226,12 @@ Print more data to your report, such as _browser info, platform, app info, envir
 
 Pass the _Key-Value_ pair as per your need, as shown in below example,
 
+#### `skipStatsForScenariosStartingWith`
+Type: `array` (optional)
+Default: `undefined`
+
+Skips the scenarios which starts with the specified names, in calculating the stats for the report.
+
 ```js
 
  metadata: {
